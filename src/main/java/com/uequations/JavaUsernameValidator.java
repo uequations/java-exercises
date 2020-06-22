@@ -11,7 +11,7 @@ import com.uequations.compute.UsernameValidator;
 //      JuliaZ007
 //      Julia@007
 //      _Julia007
-public class Solution {
+public class JavaUsernameValidator {
 
 
     public static void main(String[] args) {
