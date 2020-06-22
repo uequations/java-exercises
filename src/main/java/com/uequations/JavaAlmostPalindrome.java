@@ -1,6 +1,8 @@
-package com.uequations.compute;
+package com.uequations;
 
-public class JavaAlmostValidator {
+import com.uequations.compute.Palindrome;
+
+public class JavaAlmostPalindrome {
 
     public static void main(String[] args) {
 
