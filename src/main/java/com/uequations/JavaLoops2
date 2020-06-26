@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.math.BigDecimal;
 
-class Solution{
+class JavaLoops2 {
 
 private static void solve(int a, int b, int n){
 
