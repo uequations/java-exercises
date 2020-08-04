@@ -1,0 +1,32 @@
+import java.util.*;
+import java.io.*;
+import java.math.BigDecimal;
+
+class JavaLoops2 {
+
+private static void solve(int a, int b, int n){
+
+int calc = a;
+
+for(int i = 0; i < n; i++) {
+
+int tmp = BigDecimal.valueOf(Math.pow(2,i)).intValue()*b;
+calc = tmp + calc;
+
+    System.out.print(calc + " ");
+}
+System.out.println("");
+}
+
+    public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            solve(a,b,n); 
+        }
+        in.close();
+    }
+}
